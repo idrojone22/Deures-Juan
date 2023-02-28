@@ -1,0 +1,14 @@
+#tauler {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: DodgerBlue;
+}
+  
+#tauler > p {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
