@@ -12,6 +12,7 @@ function numeroCartes() {
         let prova = () => {
             e.style.background = "lightgreen";
             contador++;
+            alert("Has pulsado la carta " + e.textContent)
             contador == n ?  setTimeout(() => {alert("Frena Moreno!")}, 200) : null;
             e.removeEventListener("click", prova);
             e.addEventListener("click", prova1);
@@ -20,6 +21,7 @@ function numeroCartes() {
         let prova1 = () => {
             e.style.background = "white";
             contador--;
+            alert("Has pulsado la carta " + e.textContent)
             e.removeEventListener("click", prova1);
             e.addEventListener("click", prova);
         };
