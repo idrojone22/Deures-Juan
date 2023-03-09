@@ -2,7 +2,7 @@ let contador = 0;
 let primeraCarta;
 let segonaCarta;
 function numeroCartes() {
-    cartes = [1,2,3,3,2,1]
+    cartes = [1,2,3,3,2,1];
     cartes.forEach(e => { 
         tauler.innerHTML += `<p onclick="p(this)"> Carta ${e} </p>`;
     });  
